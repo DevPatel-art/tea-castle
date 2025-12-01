@@ -9,7 +9,7 @@ function Navbar() {
     <header className="header">
       <div className="container navbar">
         <Link to="/" className="brand-pill">
-          <img src="/images/logo.png" width="22" />
+          <img src="public/images/logo.png" width="22" />
           Tea Castle
         </Link>
 

@@ -8,7 +8,7 @@ const products = [
       "The perfect balance of tea and spices. Assam tea blended with a special spice mix for a bold, invigorating chai that awakens the senses.",
     weight: "250g / ₹10 pouch / loose 5kg–10kg",
     price: 200, 
-    image: "/images/masala.png",
+    image: "public/images/masala.png",
   },
 
   {
@@ -19,7 +19,7 @@ const products = [
       "Cardamom-infused delight. Signature Assam tea with the warm, soothing aroma of elaichi.",
     weight: "250g / ₹10 pouch / loose 5kg–10kg",
     price: 200,
-    image: "/images/elaichi.png",
+    image: "public/images/elaichi.png",
   },
 
   {
@@ -30,7 +30,7 @@ const products = [
       "Classic everyday luxury flavor. Crafted from carefully chosen Assam leaves — bold yet balanced for daily tea.",
     weight: "250g / ₹10 pouch / loose 5kg–10kg",
     price: 250,
-    image: "/images/premium.png",
+    image: "public/images/premium.png",
   },
 
   {
@@ -41,7 +41,7 @@ const products = [
       "Our finest leaf blend. Refined taste with lingering aroma for premium daily tea lovers.",
     weight: "250g / ₹10 pouch / loose 5kg–10kg",
     price: 300,
-    image: "/images/gold.png",
+    image: "public/images/gold.png",
   },
 
   {
@@ -52,7 +52,7 @@ const products = [
       "The pinnacle of Tea Castle craftsmanship. Richest Assam blend sealed for freshness in a standing pouch.",
     weight: "250g",
     price: 300,
-    image: "/images/gold-standing.png",
+    image: "public/images/gold-standing.png",
   },
 ];
 

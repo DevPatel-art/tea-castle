@@ -1,12 +1,12 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar.jsx";
-import Footer from "./components/Footer.jsx";
+import Navbar from "./components/navbar.jsx";
+import Footer from "./components/footer.jsx";
 import Home from "./pages/home.jsx";
-import Products from "./pages/Products.jsx";
-import About from "./pages/About.jsx";
-import Contact from "./pages/Contact.jsx";
-import Cart from "./pages/Cart.jsx";
+import Products from "./pages/products.jsx";
+import About from "./pages/about.jsx";
+import Contact from "./pages/contact.jsx";
+import Cart from "./pages/cart.jsx";
 import { CartProvider } from "./context/cartcontext.jsx";
 
 function App() {

@@ -10,7 +10,7 @@ function About() {
 
           <div className="card split">
             <div className="hero-figure" style={{ aspectRatio: "3/2" }}>
-              <img src="/images/about-us.png" className="about-img"/>
+              <img src="public/images/about-us.png" className="about-img"/>
             </div>
 
             <div>

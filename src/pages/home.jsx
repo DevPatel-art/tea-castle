@@ -9,7 +9,7 @@ function Home() {
 <section className="section">
   <div className="container">
     <div className="hero-card">
-      <img src="/images/hero.png" alt="Tea Castle Hero" className="hero-card-img" />
+      <img src="public/images/hero.png" alt="Tea Castle Hero" className="hero-card-img" />
     </div>
 
     <div className="hero-content">

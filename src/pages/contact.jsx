@@ -46,7 +46,7 @@ function Contact() {
     </span>
   </div>
 
-  <img src="/images/contact.png" className="contact-img" alt="Tea Castle Contact" />
+  <img src="public/images/contact.png" className="contact-img" alt="Tea Castle Contact" />
 </div>
             </div>
           </div>
