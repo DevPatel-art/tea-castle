@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { useCart } from "../context/cartcontext";
 import logoImg from "../assets/images/logo.png";
 
-
++
 
 function Navbar() {
   const { count } = useCart();
