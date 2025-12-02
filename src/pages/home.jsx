@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import products from "../data/products";
 import ProductCard from "../components/productcard";
+import heroImg from "../assets/images/hero.png"; 
+
 
 function Home() {
   return (
@@ -9,7 +11,7 @@ function Home() {
 <section className="section">
   <div className="container">
     <div className="hero-card">
-      <img src="public/images/hero.png" alt="Tea Castle Hero" className="hero-card-img" />
+    <img src={heroImg} alt="Tea Castle Hero" />
     </div>
 
     <div className="hero-content">

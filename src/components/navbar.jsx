@@ -1,6 +1,9 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { useCart } from "../context/cartcontext";
+import logoImg from "../assets/images/logo.png";
+
+
 
 function Navbar() {
   const { count } = useCart();
@@ -9,7 +12,7 @@ function Navbar() {
     <header className="header">
       <div className="container navbar">
         <Link to="/" className="brand-pill">
-          <img src="public/images/logo.png" width="22" />
+  <img src={logoImg} alt="Tea Castle logo" className="brand-logo" width="22" />
           Tea Castle
         </Link>
 

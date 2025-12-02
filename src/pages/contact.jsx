@@ -1,4 +1,5 @@
 import React from "react";
+import contactImg from "../assets/images/contact.png"; 
 
 function Contact() {
   const onSubmit = (e) => {
@@ -46,7 +47,10 @@ function Contact() {
     </span>
   </div>
 
-  <img src="public/images/contact.png" className="contact-img" alt="Tea Castle Contact" />
+<div className="contact-image-card">
+  <img src={contactImg} className="contact-img" alt="Tea Castle contact" />
+</div>
+
 </div>
             </div>
           </div>

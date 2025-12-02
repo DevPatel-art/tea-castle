@@ -7,7 +7,7 @@ function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <div className="footer-brand">
-          <img src="public/images/logo.png" width="18" />
+          <img src="tea-castle/public/images/logo.png" width="18" />
           <strong>Tea Castle</strong>
         </div>
         <small className="footer-text">

@@ -1,4 +1,5 @@
 import React from "react";
+import aboutImg from "../assets/images/about-us.png";
 
 function About() {
   return (
@@ -10,7 +11,8 @@ function About() {
 
           <div className="card split">
             <div className="hero-figure" style={{ aspectRatio: "3/2" }}>
-              <img src="public/images/about-us.png" className="about-img"/>
+  <img src={aboutImg} className="about-img" alt="About Tea Castle" />
+
             </div>
 
             <div>
